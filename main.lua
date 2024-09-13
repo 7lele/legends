@@ -5,7 +5,7 @@ function love.load()
     X = 0
     Y = 0
 
-    
+
   
     map = love.graphics.newImage("Assets/map.png")
     map:setFilter("nearest", "nearest")
