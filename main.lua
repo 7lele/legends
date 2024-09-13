@@ -37,6 +37,15 @@ function love.update()
     if X > 390 then
         X = 390
     end 
+    if X < -4400 then
+        X = -4400
+    end 
+    if Y > 290 then
+        Y = 290
+    end 
+    if Y < -4490 then
+        Y = -4490
+    end 
 end
 
 
