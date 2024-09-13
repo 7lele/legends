@@ -5,7 +5,7 @@ function love.load()
     X = 0
     Y = 0
 
-    
+  
     map = love.graphics.newImage("Assets/map.png")
     map:setFilter("nearest", "nearest")
     -- player 
@@ -14,7 +14,7 @@ function love.load()
     player = love.graphics.newImage("Assets/player.png")
     imageX = (screenWidth - 16) / 2
     imageY = (screenHeight - 16) / 2
-    
+
 end
 
 
@@ -33,19 +33,19 @@ function love.update()
     if love.keyboard.isDown("d")== true then
         X = X - 3
     end
-        
+
     if X > 390 then
         X = 390
-    end 
+    end
     if X < -4400 then
         X = -4400
-    end 
+    end
     if Y > 290 then
         Y = 290
-    end 
+    end
     if Y < -4490 then
         Y = -4490
-    end 
+    end
 end
 
 
